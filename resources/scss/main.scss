@@ -1,0 +1,24 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+div.root {
+    width: 800px;
+    margin: 0 auto;
+    div {
+        margin: 5px auto;
+        width: 90%;
+        border: 1px solid black;
+    }
+
+    div.title {
+        font-size: 32px;
+        text-align: center;
+        font-style: italic;
+    }
+}
+
+div.text-viewer {
+    height: 200px;
+    overflow: auto;
+}
